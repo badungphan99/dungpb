@@ -1,0 +1,60 @@
+baseURL = 'http://dungpb.com/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'pulp'
+
+canonifyurls = true
+hasCJKLanguage = true
+# pygmentsCodefences = true
+# pygmentsUseClasses = true
+googleAnalytics = "G-T5DP61CERR"
+
+[markup.goldmark.renderer]
+    unsafe = true # Allow user HTML tags
+
+[params]
+    author = "Phan Bá Dũng"
+    avatar = "avatar.jpg"
+    # avatarDescription = "My avatar description"
+    favicon = "favicon.ico"
+    description = """
+        💀 🫥 ☕️ 🚬 2️⃣5️⃣0️⃣ 🍺
+    """
+    publicationYear = "2024"
+    # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
+    # singlePageDateFormat = "January 2, 2006"
+    # custom_css = ["/css/custom.css"]
+    # custom_js = ["/js/custom.js"]
+
+# Make sure setting a following option for search bar to work
+[outputs]
+    section = ["JSON", "HTML"]
+    term = ["JSON", "HTML"]
+
+#[[menu.main]]
+#    identifier = "blog"
+#    # name = "Blog" #If display text link, cancel comment out
+#    pre = "<i class='fa fa-book-open fa-lg'></i>" #Choose your favorite font from Font Awesome
+#    url = "/blog/"
+#    weight = 10
+
+[[menu.main]]
+    identifier = "facebook"
+    # name = "Facebook"
+    pre = "<i class='fab fa-facebook fa-lg'></i>"
+    url = "https://www.facebook.com/dungpb99"
+    weight = 20
+
+[[menu.main]]
+    identifier = "github"
+    # name = "GitHub"
+    pre = "<i class='fab fa-github fa-lg'></i>"
+    url = "https://github.com/badungphan99"
+    weight = 30
+
+[[menu.main]]
+    identifier = "email"
+    # name = "Email"
+    pre = "<i class='fa fa-envelope fa-lg'></i>"
+    url = "mailto:me@dungpb"
+    weight = 40
