@@ -1,6 +1,6 @@
 baseURL = 'https://dungpb.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'dungpb'
 theme = 'pulp'
 
 canonifyurls = true
