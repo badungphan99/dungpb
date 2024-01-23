@@ -1,4 +1,4 @@
-baseURL = 'http://dungpb.com/'
+baseURL = 'https://dungpb.com/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'pulp'
