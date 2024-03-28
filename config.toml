@@ -1,4 +1,4 @@
-baseURL = 'https://dungpb.com/'
+baseURL = 'https://badungphan99.github.io/dungpb/'
 languageCode = 'en-us'
 title = 'dungpb'
 theme = 'pulp'
@@ -7,7 +7,6 @@ canonifyurls = true
 hasCJKLanguage = true
 # pygmentsCodefences = true
 # pygmentsUseClasses = true
-googleAnalytics = "G-T5DP61CERR"
 
 [markup.goldmark.renderer]
     unsafe = true # Allow user HTML tags
