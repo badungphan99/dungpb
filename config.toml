@@ -34,7 +34,7 @@ googleAnalytics = "G-T5DP61CERR"
 [[menu.main]]
     identifier = "blog"
     # name = "Linkedin"
-    pre = "<i class='fab fa-blog fa-lg'></i>"
+    pre = "<i class='fas fa-blog fa-lg'></i>"
     url = "https://blog.dungpb.com"
     weight = 10
 
