@@ -32,32 +32,39 @@ googleAnalytics = "G-T5DP61CERR"
     term = ["JSON", "HTML"]
 
 [[menu.main]]
+    identifier = "blog"
+    # name = "Linkedin"
+    pre = "<i class='fab fa-blog fa-lg'></i>"
+    url = "https://blog.dungpb.com"
+    weight = 10
+
+[[menu.main]]
     identifier = "linkedin"
     # name = "Linkedin"
     pre = "<i class='fab fa-linkedin fa-lg'></i>"
     url = "https://www.linkedin.com/in/phanbadung"
-    weight = 10
+    weight = 20
 
 [[menu.main]]
     identifier = "facebook"
     # name = "Facebook"
     pre = "<i class='fab fa-facebook fa-lg'></i>"
     url = "https://www.facebook.com/dungpb99"
-    weight = 20
+    weight = 30
 
 [[menu.main]]
     identifier = "github"
     # name = "GitHub"
     pre = "<i class='fab fa-github fa-lg'></i>"
     url = "https://github.com/badungphan99"
-    weight = 30
+    weight = 40
 
 [[menu.main]]
     identifier = "email"
     # name = "Email"
     pre = "<i class='fa fa-envelope fa-lg'></i>"
     url = "mailto:me@dungpb"
-    weight = 40
+    weight = 50
 
 [[menu.main]]
     identifier = "love"
